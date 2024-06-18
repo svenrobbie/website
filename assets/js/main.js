@@ -246,6 +246,12 @@
       mirror: false
     })
   });
+  
+  const startDate = new Date('2023-01-01'); // Startdatum
+  const endDate = new Date('2023-12-31'); // Einddatum
+  const percentage = ((Date.now() - startDate.getTime()) / (endDate.getTime() - startDate.getTime())) * 100;
+
+  document.querySelector('.progress').style.width = `${percentage}%`;
 
   /**
    * Initiate Pure Counter 
