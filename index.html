@@ -120,37 +120,37 @@
 
         <div class="row no-gutters">
 
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+          <div class="col-lg-3 col-md-6 d-md-flex flex-column" data-aos="fade-up">
             <div class="count-box">
               <i class="bi bi-award"></i>
-              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
+              <p style="font-size:48px;line-height:40px;display:block;font-weight:700;color:#050d18;margin-left:60px;">3</p>
               <p><strong>Diplomas and certificates</strong></p>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+          
+          <div class="col-lg-3 col-md-6 d-md-flex flex-column" data-aos="fade-up" data-aos-delay="100">
             <div class="count-box">
               <i class="bi bi-hourglass"></i>
-              <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter"></span>
+              <p style="font-size:48px;line-height:40px;display:block;font-weight:700;color:#050d18;margin-left:60px;">6</p>
               <p><strong>Years of coding</strong></p>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+          
+          <div class="col-lg-3 col-md-6 d-md-flex flex-column" data-aos="fade-up" data-aos-delay="200">
             <div class="count-box">
               <i class="bi bi-clock-fill"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1106" class="purecounter"></span>
-              <p><strong>Days left till bachelordiploma</strong></p>
+              <p id="daysleft" style="font-size:48px;line-height:40px;display:block;font-weight:700;color:#050d18;margin-left:60px;"></p>
+              <p><strong>Days left till bachelor diploma</strong></p>
             </div>
           </div>
           
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-3 col-md-6 d-md-flex flex-column" data-aos="fade-up" data-aos-delay="300">
             <div class="count-box">
               <i class="bi bi-server"></i>
-              <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1" class="purecounter"></span>
+              <p style="font-size:48px;line-height:40px;display:block;font-weight:700;color:#050d18;margin-left:60px;">9</p>
               <p><strong>Repositories on Github</strong></p>
             </div>
-          </div>
+          </div>          
 
         </div>
 
@@ -268,6 +268,22 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Jun 30, 2027").getTime();
+    
+    
+    // Get today's date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+
+    var days = Math.ceil(distance / (1000 * 60 * 60 * 24));
+
+    document.getElementById("daysleft").innerHTML = days;
+  </script>
 
 </body>
 
