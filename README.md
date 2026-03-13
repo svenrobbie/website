@@ -17,7 +17,6 @@ Deze website is mijn digitale visitekaartje, ontworpen om mezelf voor te stellen
 - **Projecten** – Lopende projecten zoals een HomeAssistant-server en een persoonlijke cloud-server
 - **Skills** – Een overzicht van mijn technische kennis (Python, Linux, serverbeheer, etc.)
 - **Feitjes** – Wist-je-datjes zoals aantal GitHub-repositories, programmeer-ervaring, studievoortgang, enz.
-- **Contact** – E-mailadres en links naar de website
 
 ## Technische details
 
