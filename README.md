@@ -13,11 +13,15 @@ In tegenstelling tot standaard portfolios, is deze site ontworpen met een **Crow
 
 ## 🏗️ Infrastructuur & Hosting
 
-In het kader van security en volledige controle over de stack, wordt deze website **niet** gehost via externe providers zoals GitHub Pages.
+Deze website wordt gehost via GitHub Pages en de volledige broncode is open source beschikbaar op GitHub. Hierdoor blijft de infrastructuur transparant, reproduceerbaar en eenvoudig te onderhouden.
 
-- **Deployment:** Self-hosted infrastructuur.
-- **Architectuur:** Statische HTML5/TailwindCSS stack voor minimale aanvalsoppervlakte en maximale performance.
-- **Privacy:** Gebouwd met privacy-first principes; geen externe trackers of onnodige scripts.
+**Hosting:** GitHub Pages (statische hosting).
+
+**Code:**: Volledig open source en publiek beschikbaar via GitHub.
+
+**Architectuur:** Statische HTML5/TailwindCSS stack voor maximale performance en een klein aanvalsoppervlak.
+
+**Privacy:** Ontwikkeld met privacy-first principes; geen externe trackers of onnodige scripts.
 
 ## 🛠️ Technische Specificaties
 
