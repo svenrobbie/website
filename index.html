@@ -21,17 +21,6 @@
         }
         @keyframes scan { 0% { top: 0; } 100% { top: 100%; } }
 
-        /* Uptime Pulse Animatie */
-        .pulse-green {
-            box-shadow: 0 0 0 0 rgba(0, 255, 65, 0.7);
-            animation: pulse 2s infinite;
-        }
-        @keyframes pulse {
-            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 255, 65, 0.7); }
-            70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(0, 255, 65, 0); }
-            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 255, 65, 0); }
-        }
-
         /* Foto Frame Styling */
         .photo-frame {
             position: relative;
@@ -63,12 +52,6 @@
     <nav class="p-8 flex justify-between items-center max-w-7xl mx-auto border-b border-white/10">
         <div class="cs-header text-2xl tracking-tighter italic">
             ROGUEBYTE<span class="text-red">//</span>SEC
-        </div>
-         <!-- Live Status Link -->
-        <a href="https://uptime.c14h19no2.nl/status/servers" target="_blank" class="flex items-center bg-zinc-900/50 border border-white/10 px-3 py-1 rounded-full hover:border-green-500 transition-all group">
-            <span class="w-2 h-2 bg-[var(--cs-green)] rounded-full pulse-green mr-2"></span>
-            <span class="text-[9px] mono text-zinc-400 group-hover:text-white uppercase tracking-tighter">System Integrity: Online</span>
-        </a>
         </div>
         <div class="flex space-x-6 items-center">
             <a href="https://github.com/svenrobbie" target="_blank" aria-label="GitHub">
