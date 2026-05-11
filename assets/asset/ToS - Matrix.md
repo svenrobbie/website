@@ -25,7 +25,7 @@ Deze server maakt gebruik van het **Matrix-protocol**, een **open-source, gedece
 
 * Toegang tot de server is alleen mogelijk via een **uitnodiging van de beheerder**.
 * Registratie is **gesloten voor het publiek**.
-* De beheerder kan toegang weigeren, beperken, accounts deactiveren of verwijderen indien een gebruiker deze voorwaarden niet naleeft. Dit gebeurt met een redelijke onderbouwing, maar een uitgebreide toelichting is niet verplicht.
+* De beheerder kan **toegang weigeren, beperken, accounts deactiveren of verwijderen** indien een gebruiker deze voorwaarden niet naleeft. Dit gebeurt met een redelijke onderbouwing, maar een uitgebreide toelichting is niet verplicht.
 * Gebruikers kunnen verzoeken om verwijdering van hun account. Lokaal opgeslagen accountgegevens worden dan zo snel mogelijk verwijderd, voor zover technisch mogelijk.
 * De beheerder is **niet verplicht om gegevens te exporteren of over te dragen** aan gebruikers.
 
@@ -48,7 +48,7 @@ Op deze server is het verboden om:
 
 ### **5A. End-to-End Encryptie (E2EE)**
 
-> Privégesprekken en daarvoor geschikte rooms gebruiken standaard **end-to-end encryptie** via het Olm/Megolm-protocol van Matrix. Hierdoor heeft de beheerder normaal gesproken geen toegang tot de inhoud van versleutelde berichten.
+> Privégesprekken en daarvoor geschikte rooms gebruiken standaard **end-to-end encryptie** via het Olm/Megolm-protocol van Matrix. Hierdoor heeft de beheerder geen toegang tot de inhoud van versleutelde berichten.
 >
 > Alleen de zender en ontvanger(s) kunnen berichten lezen. **Metadata** zoals tijdstempels en serverinformatie wordt niet versleuteld en kan tijdelijk worden verwerkt voor **beheer en beveiliging**.
 >
