@@ -1,7 +1,6 @@
-# **Gebruiksvoorwaarden (Terms of Service) – Matrix Server c14h19no2.nl**
+# **Gebruiksvoorwaarden (Terms of Service) – Matrix Server matrix.c14h19no2.nl**
 
-**Laatst bijgewerkt:** 11 mei 2026
-
+**Laatst bijgewerkt:** 26 mei 2026
 ---
 
 ## **1. Inleiding**
@@ -16,7 +15,7 @@ Deze server maakt gebruik van het **Matrix-protocol**, een **open-source, gedece
 
 * **Gedecentraliseerd:** Er is geen enkele centrale partij die controle heeft over het hele netwerk. Gebruikers kunnen communiceren met andere Matrix-servers (**federatie**), zolang die servers ook het Matrix-protocol ondersteunen.
 * **Open-source:** De software die deze server draait is **vrij beschikbaar** en kan door iedereen worden geïnspecteerd. Dit zorgt voor **transparantie en veiligheid**.
-* **Federatie:** Gebruikers van deze server kunnen communiceren met gebruikers op andere Matrix-servers (mits die servers federatie toestaan). Dit betekent dat berichten kunnen worden uitgewisseld met gebruikers buiten `c14h19no2.nl`.
+* **Federatie:** Gebruikers van deze server kunnen communiceren met gebruikers op andere Matrix-servers (mits die servers federatie toestaan). Dit betekent dat berichten kunnen worden uitgewisseld met gebruikers buiten `matrix.c14h19no2.nl`.
 * **End-to-End Encryptie (E2EE):** Zoals beschreven in sectie 5 ondersteunen privégesprekken en daarvoor geschikte rooms standaard **end-to-end encryptie**.
 
 ---
