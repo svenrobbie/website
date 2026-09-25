@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/sven/Projecten/WebsiteV2.0/src/app/not-found.tsx"],"sourcesContent":["import Link from 'next/link';\n\nexport default function NotFound() {\n  return <section className=\"shell page-intro\"><p className=\"eyebrow\">404</p><h1>This route is not documented.</h1><p>The page may have moved, or it never existed.</p><Link className=\"button button-primary\" href=\"/\">Back home</Link></section>;\n}\n"],"names":["NotFound","className","href"],"mappings":";;;;;AAAA;;;AAEe,SAASA;IACtB,qBAAO,8OAAC;QAAQC,WAAU;;0BAAmB,8OAAC;gBAAEA,WAAU;0BAAU;;;;;;0BAAO,8OAAC;0BAAG;;;;;;0BAAkC,8OAAC;0BAAE;;;;;;0BAAiD,8OAAC,0LAAI;gBAACA,WAAU;gBAAwBC,MAAK;0BAAI;;;;;;;;;;;;AACxN"}}]
-}
