@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/sven/Projecten/WebsiteV2.0/src/components/Reveal.tsx"],"sourcesContent":["'use client';\n\nimport { motion, useReducedMotion } from 'motion/react';\nimport type { ReactNode } from 'react';\n\nexport function Reveal({ children, delay = 0 }: { children: ReactNode; delay?: number }) {\n  const reduce = useReducedMotion();\n\n  return (\n    <motion.div\n      initial={reduce ? false : { opacity: 0, y: 34 }}\n      whileInView={{ opacity: 1, y: 0 }}\n      viewport={{ once: true, amount: 0.22 }}\n      transition={{ duration: 0.82, delay, ease: [0.16, 1, 0.3, 1] }}\n    >\n      {children}\n    </motion.div>\n  );\n}\n"],"names":["Reveal","children","delay","reduce","div","initial","opacity","y","whileInView","viewport","once","amount","transition","duration","ease"],"mappings":";;;;;AAEA;AAAA;AAFA;;;AAKO,SAASA,OAAO,EAAEC,QAAQ,EAAEC,QAAQ,CAAC,EAA2C;IACrF,MAAMC,SAAS,IAAA,6NAAgB;IAE/B,qBACE,8OAAC,wKAAM,CAACC,GAAG;QACTC,SAASF,SAAS,QAAQ;YAAEG,SAAS;YAAGC,GAAG;QAAG;QAC9CC,aAAa;YAAEF,SAAS;YAAGC,GAAG;QAAE;QAChCE,UAAU;YAAEC,MAAM;YAAMC,QAAQ;QAAK;QACrCC,YAAY;YAAEC,UAAU;YAAMX;YAAOY,MAAM;gBAAC;gBAAM;gBAAG;gBAAK;aAAE;QAAC;kBAE5Db;;;;;;AAGP"}}]
+}

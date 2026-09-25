@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/sven/Projecten/WebsiteV2.0/src/components/PageProgress.tsx"],"sourcesContent":["'use client';\n\nimport { motion, useReducedMotion, useScroll, useSpring } from 'motion/react';\n\nexport function PageProgress() {\n  const reduce = useReducedMotion();\n  const { scrollYProgress } = useScroll();\n  const scaleX = useSpring(scrollYProgress, { stiffness: 140, damping: 28, mass: 0.25 });\n\n  if (reduce) return null;\n\n  return <motion.div className=\"page-progress\" style={{ scaleX }} aria-hidden=\"true\" />;\n}\n"],"names":["PageProgress","reduce","scrollYProgress","scaleX","stiffness","damping","mass","div","className","style"],"mappings":";;;;;AAEA;AAAA;AAAA;AAAA;;;AAFA;;AAIO,SAASA;;IACd,MAAMC,SAAS,IAAA,gOAAgB;IAC/B,MAAM,EAAEC,eAAe,EAAE,GAAG,IAAA,yLAAS;IACrC,MAAMC,SAAS,IAAA,yLAAS,EAACD,iBAAiB;QAAEE,WAAW;QAAKC,SAAS;QAAIC,MAAM;IAAK;IAEpF,IAAIL,QAAQ,OAAO;IAEnB,qBAAO,6LAAC,2KAAM,CAACM,GAAG;QAACC,WAAU;QAAgBC,OAAO;YAAEN;QAAO;QAAG,eAAY;;;;;;AAC9E;GARgBH;;QACC,gOAAgB;QACH,yLAAS;QACtB,yLAAS;;;KAHVA"}}]
+}
