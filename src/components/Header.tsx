@@ -1,12 +1,13 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import {
   ArrowUpRight,
   FolderOpen,
   HardDrives,
   LinkedinLogo,
-  ShieldChevron,
   User,
 } from '@phosphor-icons/react/dist/ssr';
+import favicon from '@/app/favicon.ico';
 import { site } from '@/data/site';
 
 const navigation = [
@@ -21,7 +22,7 @@ export function Header() {
       <div className="shell nav-wrap">
         <Link className="brand" href="/" aria-label={`${site.name}, home`}>
           <span className="brand-symbol" aria-hidden="true">
-            <ShieldChevron size={23} weight="duotone" />
+            <Image src={favicon} alt="" width={23} height={23} />
           </span>
           <span>{site.shortName}</span>
         </Link>
